@@ -1,0 +1,5 @@
+article#nodes
+  h1 Nodes
+  ul
+    each node in controller
+      li= node.text
