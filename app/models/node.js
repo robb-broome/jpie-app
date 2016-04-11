@@ -1,6 +1,8 @@
+import DS from "ember-data";
+
 export default DS.Model.extend({
-  name: DS.attr(),
-  description: DS.attr(),
-  started_at: DS.attr(),
-  uuid: DS.attr(),
+  name: DS.attr('string'),
+  description: DS.attr('string'),
+  started_at: DS.attr('date'),
+  uuid: DS.attr('string'),
 });
