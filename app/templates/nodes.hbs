@@ -1,0 +1,7 @@
+{{#each model as |node|}}
+  {{#node-component title=node.name}}
+    <p>uuid: {{node.uuid}}</p>
+    <p>descr: {{node.description}}</p>
+    <p>other text</p>
+  {{/node-component}}
+{{/each}}
